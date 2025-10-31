@@ -1,0 +1,126 @@
+/*Settings*/
+
+body {
+    padding: 0;
+    margin: 0;
+    color: black;
+    font-family: 'Merriweather', serif;
+}
+
+p {
+    padding: 6px;
+}
+
+h1 {
+    padding: 6px;
+}
+
+h2 {
+    padding: 6px;
+}
+
+h3 {
+    padding: 6px;
+}
+
+.img {
+    padding: 6px;
+    height: 100px;
+    width: auto;
+}
+
+header {
+    background-color: rgb(74, 195, 255);
+    border-color: hsl(192, 60%, 48%);
+    border-width: 6.7px;
+    border-style: solid;
+    border-radius: 6.7px;
+    padding: 6px;
+    text-align: center;
+    color: white;
+}
+
+footer {
+    background-color: rgb(74, 195, 255);
+    border-color: hsl(192, 60%, 48%);
+    border-width: 6.7px;
+    border-style: solid;
+    border-radius: 6.7px;
+    padding: 6px;
+    text-align: center;
+    color: white;
+}
+
+/*Nav Bar*/
+
+.deconone {
+    text-decoration: none;
+    color: white;
+    background-color: hsl(192, 60%, 48%);
+    border-color: rgb(74, 195, 255);
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 6.7px;
+    text-align: center;
+}
+
+.navbar {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 20px;
+    padding: 20px;
+    margin: auto; 
+}
+
+/*Modifiers*/
+
+.textalign {
+    text-align: center;
+}
+
+.textdecornone {
+    text-decoration: none;
+}
+
+.rightmargin {
+    margin-right: 100px;
+}
+
+/*Colors*/
+
+.greyback {
+    background-color: grey;
+}
+
+.bluebackandborder {
+    background-color: rgb(74, 195, 255);
+    border-color: hsl(192, 60%, 48%);
+    border-width: 6.7px;
+    border-style: solid;
+    border-radius: 6.7px;
+    color: #fff;
+}
+
+/*Grids*/
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 20px;
+    padding: 20px;
+    margin: auto;
+   }
+  
+.grid-item {
+      text-align: center; /* Centers text horizontally */
+    }
+
+.grid-item img {
+      justify-self: center; /* Centers image horizontally within its cell */
+    }   
+
+.heuristic {
+    color: #fff;
+    padding: 20px;
+    border-radius: 15px;
+}
